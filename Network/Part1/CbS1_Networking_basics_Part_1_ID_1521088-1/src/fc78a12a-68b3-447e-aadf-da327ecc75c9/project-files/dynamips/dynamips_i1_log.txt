@@ -1,0 +1,21 @@
+2026-11-13T09:11:12.153Z HYPERVISOR: Release 0.2.25-amd64/Linux (tag 2023010200)
+2026-11-13T09:11:12.153Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 52691.
+2026-11-13T09:11:12.156Z HYPERVISOR: exec_cmd: hypervisor version 
+2026-11-13T09:11:12.156Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/artem/GNS3/projects/fc78a12a-68b3-447e-aadf-da327ecc75c9/project-files/dynamips 
+2026-11-13T09:11:12.156Z GENERAL: working_dir=/home/artem/GNS3/projects/fc78a12a-68b3-447e-aadf-da327ecc75c9/project-files/dynamips
+2026-11-13T09:11:12.156Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/artem/GNS3/projects/fc78a12a-68b3-447e-aadf-da327ecc75c9/project-files/dynamips/63f83b5f-5198-4cd8-b05e-d804bdda66c3 
+2026-11-13T09:11:12.156Z GENERAL: working_dir=/home/artem/GNS3/projects/fc78a12a-68b3-447e-aadf-da327ecc75c9/project-files/dynamips/63f83b5f-5198-4cd8-b05e-d804bdda66c3
+2026-11-13T09:11:12.156Z HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+2026-11-13T09:11:12.156Z VM: VM R2 created.
+2026-11-13T09:11:12.156Z HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5006 
+2026-11-13T09:11:12.157Z HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+2026-11-13T09:11:12.157Z HYPERVISOR: exec_cmd: vm set_ram R2 256 
+2026-11-13T09:11:12.157Z HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+2026-11-13T09:11:12.157Z HYPERVISOR: exec_cmd: vm set_ios R2 /home/artem/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+2026-11-13T09:11:12.157Z HYPERVISOR: exec_cmd: vm get_status R2 
+2026-11-13T09:11:12.158Z HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60aa5f14 
+2026-11-13T09:11:12.158Z HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+2026-11-13T09:11:12.158Z HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.4b03.0000 
+2026-11-13T09:11:12.177Z HYPERVISOR: exec_cmd: nio create_udp udp-35eae0bd-8131-4a19-9831-47311aceed6b 10004 127.0.0.1 10005 
+2026-11-13T09:11:12.684Z HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-35eae0bd-8131-4a19-9831-47311aceed6b 
+2026-11-13T09:11:12.684Z HYPERVISOR: exec_cmd: vm get_status R2 

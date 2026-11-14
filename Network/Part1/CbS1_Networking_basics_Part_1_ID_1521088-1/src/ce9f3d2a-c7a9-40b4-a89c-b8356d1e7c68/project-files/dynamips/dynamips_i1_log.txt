@@ -1,0 +1,29 @@
+2026-11-13T07:38:58.445Z HYPERVISOR: Release 0.2.25-amd64/Linux (tag 2023010200)
+2026-11-13T07:38:58.445Z HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58609.
+2026-11-13T07:38:58.445Z HYPERVISOR: exec_cmd: hypervisor version 
+2026-11-13T07:38:58.446Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/artem/GNS3/projects/ce9f3d2a-c7a9-40b4-a89c-b8356d1e7c68/project-files/dynamips 
+2026-11-13T07:38:58.446Z GENERAL: working_dir=/home/artem/GNS3/projects/ce9f3d2a-c7a9-40b4-a89c-b8356d1e7c68/project-files/dynamips
+2026-11-13T07:38:58.446Z HYPERVISOR: exec_cmd: hypervisor working_dir /home/artem/GNS3/projects/ce9f3d2a-c7a9-40b4-a89c-b8356d1e7c68/project-files/dynamips/ea150fa9-0f42-4910-9976-a69cab2608c3 
+2026-11-13T07:38:58.446Z GENERAL: working_dir=/home/artem/GNS3/projects/ce9f3d2a-c7a9-40b4-a89c-b8356d1e7c68/project-files/dynamips/ea150fa9-0f42-4910-9976-a69cab2608c3
+2026-11-13T07:38:58.446Z HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+2026-11-13T07:38:58.446Z VM: VM R1 created.
+2026-11-13T07:38:58.446Z HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+2026-11-13T07:38:58.446Z HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+2026-11-13T07:38:58.447Z HYPERVISOR: exec_cmd: vm set_ram R1 256 
+2026-11-13T07:38:58.447Z HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+2026-11-13T07:38:58.447Z HYPERVISOR: exec_cmd: vm set_ios R1 /home/artem/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+2026-11-13T07:38:58.447Z HYPERVISOR: exec_cmd: vm get_status R1 
+2026-11-13T07:38:58.447Z HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60aa5f14 
+2026-11-13T07:38:58.448Z HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+2026-11-13T07:38:58.448Z HYPERVISOR: exec_cmd: c3745 set_mac_addr R1 c401.120b.0000 
+2026-11-13T07:40:29.900Z HYPERVISOR: exec_cmd: vm get_status R1 
+2026-11-13T07:40:29.900Z HYPERVISOR: exec_cmd: vm extract_config R1 
+2026-11-13T07:41:13.491Z HYPERVISOR: exec_cmd: vm get_status R1 
+2026-11-13T07:41:13.491Z HYPERVISOR: exec_cmd: vm extract_config R1 
+2026-11-13T07:41:13.495Z HYPERVISOR: exec_cmd: vm get_status R1 
+2026-11-13T07:41:13.496Z HYPERVISOR: exec_cmd: vm extract_config R1 
+2026-11-13T07:41:13.496Z HYPERVISOR: exec_cmd: vm delete R1 
+2026-11-13T07:41:13.496Z VM: VM R1 destroyed.
+2026-11-13T07:41:13.496Z HYPERVISOR: exec_cmd: hypervisor stop 
+2026-11-13T07:41:13.769Z HYPERVISOR: Stopped.
+2026-11-13T07:41:13.769Z GENERAL: reset done.

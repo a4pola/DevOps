@@ -1,0 +1,14 @@
+vm_mmap_open_file: unable to open file 'c3745_i1_rom' (No such file or directory)
+vm_mmap_open_file: unable to open file 'c3745_i1_rom' (No such file or directory)
+vm_mmap_open_file: unable to open file 'c3745_i1_rom' (No such file or directory)
+Cisco Router Simulation Platform (version 0.2.25-amd64/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Nov 13 2026 07:23:22
+
+Log file: writing to dynamips_i1_log.txt
+Console binding address set to 0.0.0.0
+Hypervisor TCP control server started (IP 127.0.0.1 port 58609).
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+Shutdown completed.

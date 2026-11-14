@@ -1,0 +1,6 @@
+uBridge version 1.3.0 running with libpcap version 1.11.0 (64-bit time_t, with TPACKET_V3)
+Hypervisor control socket started (/run/user/1000/gns3/ubridge-1dab15d2-2327-437c-9597-a1abbc056030.sock).
+UDP tunnel connecting from local port 10003 to IPv4 address 127.0.0.1 on port 10002
+UDP tunnel connecting from local port 10001 to IPv4 address 127.0.0.1 on port 10000
+Source NIO listener thread for DYNAMIPS-10002-10003 has started
+Destination NIO listener thread for DYNAMIPS-10002-10003 has started
